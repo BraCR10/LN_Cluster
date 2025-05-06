@@ -28,7 +28,13 @@ The primary goals of LN_Cluster are:
 
 This project is inspired by the [LND Docker README](https://github.com/lightningnetwork/lnd/blob/master/docker/README.md#create-lightning-network-cluster), which provides guidance on setting up a Lightning Network cluster using Docker. LN_Cluster adapts these principles for personal experimentation and learning.
 
-
+## Test it
+Run the `generate_cluster.sh` script
+```
+git clone https://github.com/BraCR10/LN_Cluster.git
+sudo chmod +x cluster_LN/generate_cluster.sh
+./cluster_LN/generate_cluster.sh
+```
 ---
 
 Feel free to explore and modify this project as part of your personal learning journey into the Lightning Network!
